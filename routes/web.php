@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/programacion-docente/{campus}/{clave}', 'App\Http\Controllers\ProgramacionDocenteController@getProgrammingData');
+Route::get('/programming-data/search/{campus}/{clave}', 'App\Http\Controllers\ProgramacionDocenteController@getProgrammingData');
