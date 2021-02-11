@@ -16,11 +16,15 @@ class ProgramacionDocenteController extends Controller
 
         if($response->successful())
         {
-            return response()->json(['data' => $response->body()], 200);
+            return response()->json($response->body());
         }
         else
         {
-            return response()->json([], 500);
+            return response()->json([
+                'status'    => 500,
+                'message'   => 'The was an internal error, please try later',
+                'error'     => true
+            ]);
         }
     }
 }

@@ -16,5 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/programming-data/search/{campus}/{clave}', 'App\Http\Controllers\ProgramacionDocenteController@getProgrammingData');
