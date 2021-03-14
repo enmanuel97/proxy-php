@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="509d11c1-3050-4b8a-8f45-587b98f0455d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProgramacionDocenteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProgramacionDocenteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,7 @@
       <updated>1612972321134</updated>
       <workItem from="1612972326120" duration="1285000" />
       <workItem from="1612973736569" duration="1670000" />
-      <workItem from="1613002657843" duration="2373000" />
+      <workItem from="1613002657843" duration="3555000" />
     </task>
     <servers />
   </component>
