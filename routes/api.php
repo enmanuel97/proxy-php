@@ -19,3 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/programming-data/search/{campus}/{clave}', 'App\Http\Controllers\ProgramacionDocenteController@getProgrammingData');
+
+Route::get('/find-jobs/all', 'App\Http\Controllers\FindJobsController@getJobs');
