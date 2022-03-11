@@ -21,3 +21,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('/programming-data/search/{campus}/{clave}', 'App\Http\Controllers\ProgramacionDocenteController@getProgrammingData');
 
 Route::get('/find-jobs/all', 'App\Http\Controllers\FindJobsController@getJobs');
+
+Route::get('/consultecti/categories', 'App\Http\Controllers\ConsultecController@getCategories');
+Route::get('/consultecti/products', 'App\Http\Controllers\ConsultecController@getProducts');
+Route::get('/consultecti/product/{id}', 'App\Http\Controllers\ConsultecController@getProduct');
