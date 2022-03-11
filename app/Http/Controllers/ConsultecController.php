@@ -92,13 +92,13 @@ class ConsultecController extends Controller
 
     public function getProducts(Request $request)
     {
-        $category = $request->input('category');
+        $category = $request->input('category_id');
         $products = [];
 
         if ($category) {
-            foreach ($this->products as $products) {
-                if ($products['category'] == $category) {
-                    $products[] = $products;
+            foreach ($this->products as $product) {
+                if ($product['category_id'] == $category) {
+                    $products[] = $product;
                 }
             }
         } else {
